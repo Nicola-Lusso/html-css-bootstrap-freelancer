@@ -1,0 +1,27 @@
+.bg_blue{
+  background-color: rgb(14, 47, 74);
+}
+
+.bg_aqua{
+  background-color: rgb(47, 201, 151);
+}
+
+.height_100{
+  height: 100px;
+}
+
+.height_200{
+  height: 200px;
+}
+
+.height_300{
+  height: 300px;
+}
+
+.border-red{
+  border: 2px solid red;
+}
+
+.bg_bluedark{
+  background-color: rgb(14, 27, 65);
+}
