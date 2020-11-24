@@ -10,6 +10,11 @@ h1 {
   text-transform: uppercase;
 }
 
+h2{
+
+  text-transform: uppercase;
+}
+
 /* riutilizzabili */
 .ms_green {
   background-color: #1abc9c;
@@ -17,6 +22,15 @@ h1 {
 
 .ms_text_white {
   color: white;
+}
+
+.btn_border {
+  border: 2px solid white;
+}
+
+.btn_green {
+  color: white;
+  background-color: #1abc9c;
 }
 
 /* hedaer */
@@ -65,7 +79,7 @@ header {
 }
 
 #portfolio .ms_star_blue:before,
-#portfolio .ms_star_blue:after {
+#portfolio .ms_star_blue:after, {
   content: '';
   display: inline-block;
   width: 10%;
@@ -87,7 +101,68 @@ header {
 
 /* Section About */
 
-#about .btn_download{
+#about .btn_green{
   margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+}
 
+
+#about p{
+  padding: 20px 0;
+}
+
+#contact .ms_star_blue:before,
+#contact .ms_star_blue:after {
+  content: '';
+  display: inline-block;
+  width: 10%;
+  height: 4px;
+  border-radius:2px;
+  background-color: #2c3e50;
+  margin: 0 20px;
+}
+
+#contact .row div:not(.ms_star_blue) {
+  text-align: left;
+  padding: 25px 0;
+  border-bottom: 2px solid grey;
+}
+
+#contact p{
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+#contact .row div:last-child {
+  border: none;
+}
+
+
+#contact .row div:nth-child(6) {
+  padding-bottom: 150px;
+}
+
+
+.footer_top {
+  background-color: #3a546d;
+  padding: 50px 0;
+  color: white;
+}
+
+.footer_top h3 {
+  text-transform: uppercase;
+}
+
+.footer_top a {
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.footer_top span{
+  color: #1abc9c;
 }
