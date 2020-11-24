@@ -4,67 +4,130 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document Bootstrap Freelancer</title>
+  <title>Bootstrap freelance</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Inizio headeer -->
-  <header>
-    <div class="container-fluid">
-      <div class="row">
-        <nav class="col-xs-12 bg_blue height_100">
-          <div class="row">
-            <div class="col-xs-8 border-red height_100">START BOOTSRAP</div>
-            <div class="col-xs-2 col-xs-offset-2 border-red height_100">Menù</div>
-          </div>
-        </nav>
-      </div>
-      <div class="row">
-        <div id="jumbotron" class="col-xs-12 bg_aqua border-red height_300">
 
-        </div>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top ms_navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
       </div>
-    </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-->
+    </nav>
   </header>
-  <!-- /headeer -->
+
+  <section id="jumbotron" class="ms_green ms_text_white">
+    <div class="container">
+     <div class="row">
+       <div class="col-xs-12 text-center">
+        <img src="img/profile.png" alt="">
+        <h1>Start Bootstrap</h1>
+        <div class="ms_star">
+          <i class="fas fa-star"></i>
+        </div>
+        <h3>Graphic Artist - Web Designer - Illustrator</h3>
+       </div>
+     </div>
+
+    </div>
+  </section>
 
   <!-- Inizio corpo centrale Main -->
   <main>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-6 col-lg-4 height_300 border-red"></div>
-        <div class="col-xs-12 col-md-6 col-lg-4 height_300 border-red"></div>
-        <div class="col-xs-12 col-md-6 col-lg-4 height_300 border-red"></div>
-        <div class="col-xs-12 col-md-6 col-lg-4 height_300 border-red"></div>
-        <div class="col-xs-12 col-md-6 col-lg-4 height_300 border-red"></div>
-        <div class="col-xs-12 col-md-6 col-lg-4 height_300 border-red"></div>
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h2>Portfolio</h2>
+            <div class="ms_star_blue">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="img/cabin.png" alt="house">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="img/cake.png" alt="cake">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="img/circus.png" alt="circus">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="img/game.png" alt="game">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="img/safe.png" alt="safe">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="img/submarine.png" alt="submarine">
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 bg_aqua border-red height_300"></div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 border-red height_300"></div>
+    </section>
 
+    <!-- Inizio sezione about -->
+    <section id="about" class="ms_green ms_text_white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h2>About</h2>
+            <div class="ms_star">
+               <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-lg-6 text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-6 text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <button type="button" class="btn btn_download">
+                <span class="glyphicon glyphicon-save" aria-hidden="true">Download</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!-- /sezione about -->
+
+    <section id="contact"></section>
   </main>
   <!-- /corpo centrale Main -->
 
-  <!-- Inizio footer -->
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 bg_blue border-red height_200"></div>
-        <div class="col-xs-12 bg_bluedark border-red height_100"></div>
 
-      </div>
-    </div>
+  <footer>
+
   </footer>
-  <!-- /footer -->
+
+
 </body>
 </html>
