@@ -188,3 +188,14 @@ header {
 .footer_top span{
   color: #1abc9c;
 }
+
+.footer_bottom{
+  background-color: rgb(19, 30, 65);
+}
+
+.footer_bottom p{
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
